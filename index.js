@@ -44,7 +44,7 @@ app.use("/api/posts", postRoute);
 // });
 
 // Define the port (from environment variables or default to 5000)
-const PORT = process.env.PORT ;
+const PORT = process.env.PORT || 5000 ;
 
 // Function to start the server and connect to MongoDB
 const startServer = async () => {
